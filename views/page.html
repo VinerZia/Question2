@@ -1,0 +1,17 @@
+<div class="container" ng-controller="PageController">
+    <div class="mx-auto">
+     <form ng-submit="">
+        <div class="form"><br><br><br>
+        <input type="text" class="form-control" id="title" ng-model="newpost.title" placeholder="Title"><br>
+        <textarea type="text" class="form-control" id="subject"  ng-model="newpost.subject" rows="4" placeholder="Subject"></textarea><br>
+        <textarea type="text" class="form-control" id="content"  ng-model="newpost.content" rows="13" placeholder="Content"></textarea><br>
+        <div class="custom-file">
+            <input type="file" class="custom-file-input" id="customFile">
+            <label class="custom-file-label" for="customFile">Choose file</label>
+          </div>
+          <br> <br>
+        <button type="submit" class="btn btn-info " style="width: 100%;">Add a Post</button>
+        </div>
+     </form>
+    </div>
+</div>
